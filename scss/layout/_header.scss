@@ -1,0 +1,70 @@
+header{
+  width: 100%;
+  height: 45vh;
+  background-color: $bg-header;
+  align-items: center;
+    img{
+      width: 6.25rem;
+    }
+    .redes-sociales{
+      a{
+        img{
+          width: 50px;
+        }
+      }
+    }
+    nav{
+      height: 6.25rem;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      .bar-btn{
+        font-size: 20px;
+        color: black;
+        margin-right: 20px;
+        cursor: pointer;
+      }
+      ul{
+        position: fixed;
+        width: 100%;
+        height: 0vh;
+        top: 100px;
+        background: white;
+        text-align: center;
+        transition: all 0.5;
+        li{
+          list-style: none;
+          display: none;
+          line-height: 30px;
+          margin: 50px 0px;
+          transition: all 0.5;
+          a{
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+}
+
+.nav-menu li a.active, .nav-menu li a:hover{
+  color: red;
+  transition: 0.3s;
+}
+
+#check{
+  display: none;
+}
+
+#check:checked ~ .nav-menu{
+  height: 100vh;
+}
+
+#check:checked ~ .nav-menu li{
+  display: block;
+}
