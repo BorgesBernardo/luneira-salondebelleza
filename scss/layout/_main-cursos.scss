@@ -1,0 +1,47 @@
+body{
+  main{
+    .titulo{
+      text-align: center;
+    }
+    section{
+      .container-main{
+        position: relative;
+        width: 289px;
+        height: 388px;
+        margin: 50px auto;
+        .caja-principal{
+          background-color: $bg-header;
+          width: 289px;
+          height: 388px;
+          position: absolute;
+          border-radius: 62px;
+        }
+        .caja-secundaria{
+          background-color: $bg-footer;
+          width: 235px;
+          height: 300px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto;
+        }
+        .container-curso{
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          color:white;
+          text-align: center;
+          margin: 10px 30px;
+          gap: 10px;
+          .boton-info-1{
+            button{
+              padding: 5px 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

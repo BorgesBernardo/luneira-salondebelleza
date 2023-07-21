@@ -3,6 +3,8 @@ header{
   height: 18vh;
   background-color: $bg-header;
   align-items: center;
+  position: relative;
+  z-index: 100000;
   nav{
     height: 6.25rem;
     width: 100%;

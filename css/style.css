@@ -15,6 +15,8 @@ header {
   height: 18vh;
   background-color: #E1D0E1;
   align-items: center;
+  position: relative;
+  z-index: 100000;
 }
 header nav {
   height: 6.25rem;
@@ -185,6 +187,89 @@ main .container-nosotros .container-button-nosotros {
 main .container-nosotros .container-button-nosotros button {
   padding: 20px 20px;
   border-radius: 3px solid red;
+}
+
+body main .titulo {
+  text-align: center;
+}
+body main section .container-main {
+  position: relative;
+  width: 289px;
+  height: 388px;
+  margin: 50px auto;
+}
+body main section .container-main .caja-principal {
+  background-color: #E1D0E1;
+  width: 289px;
+  height: 388px;
+  position: absolute;
+  border-radius: 62px;
+}
+body main section .container-main .caja-secundaria {
+  background-color: #BA4D74;
+  width: 235px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+body main section .container-main .container-curso {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  color: white;
+  text-align: center;
+  margin: 10px 30px;
+  gap: 10px;
+}
+body main section .container-main .container-curso .boton-info-1 button {
+  padding: 5px 10px;
+}
+
+body .boton-volver {
+  margin: 10px 150px 150px 150px;
+}
+body main .titulo {
+  text-align: center;
+}
+body main .container-main {
+  position: relative;
+  width: 289px;
+  height: 388px;
+  margin: 50px auto;
+}
+body main .container-main .caja-principal {
+  background-color: grey;
+  width: 289px;
+  height: 388px;
+  position: absolute;
+  border-radius: 62px;
+}
+body main .container-main .caja-secundaria {
+  background-color: black;
+  width: 235px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+body main .container-main .container-curso {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  color: white;
+  text-align: center;
+  margin: 10px 30px;
+  gap: 10px;
+}
+body main .container-main .container-curso .boton-info-1 button {
+  padding: 5px 10px;
 }
 
 footer {
