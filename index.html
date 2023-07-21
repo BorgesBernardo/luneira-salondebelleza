@@ -1,88 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lu Neira</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="https://kit.fontawesome.com/5f6666b2e1.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lu Neira</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://kit.fontawesome.com/5f6666b2e1.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
   <div>
     <header>
-      <nav>
-        <div>
-          <img src="./assets/logo/logo.png" alt="Logo Lu Neira">
-        </div>
-        <div class="redes-sociales">
-          <a href=""><img src="./assets/redes-sociales/facebook-circle-logo-24.png" alt=""></a>
-          <a href=""><img src="./assets/redes-sociales/instagram-alt-logo-24.png" alt=""></a>
-          <a href=""><img src="./assets/redes-sociales/tiktok-logo-24.png" alt=""></a>
-        </div>
-        <input type="type="checkbox" id="check">
-        <label for="check" class="bar-btn">
-          <i class="fa-solid fa-bars"></i>
-        </label>
-        <ul class="nav-menu">
-          <li><a class="active"href="./index.html">Inicio</a></li>
-          <li><a href="./pages/cursos.html">Cursos</a></li>
-          <li><a href="./pages/servicios.html">Servicios</a></li>
-          <li><a href="./pages/nosotros.html">Nosotros</a></li>
-        </ul>
-      </nav>
+      <div>
+        <nav>
+          <div class="redes-sociales">
+            <a href=""><img src="./assets/redes-sociales/facebook-circle-logo-24.png" alt=""></a>
+            <a href=""><img src="./assets/redes-sociales/instagram-alt-logo-24.png" alt=""></a>
+            <a href=""><img src="./assets/redes-sociales/tiktok-logo-24.png" alt=""></a>
+          </div>
+          <input type="checkbox" id="check">
+          <label for="check" class="bar-btn">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+          <ul class="nav-menu">
+            <li><a class="active" href="./index.html">Inicio</a></li>
+            <li><a href="./pages/cursos.html">Cursos</a></li>
+            <li><a href="./pages/servicios.html">Servicios</a></li>
+            <li><a href="./pages/nosotros.html">Nosotros</a></li>
+            <li><a href="./pages/pruebas.html">Pruebas</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="logo-img">
+        <img src="./assets/logo/logo.png" alt="Logo Lu Neira">
+      </div>
     </header>
     <main>
-      <div>
+      <div class="encabezado">
         <h1> Bienvenidos a Lu Neira</h1>
         <h4>el salon de estética que estabas buscando!!</h4>
       </div>
-      <section>
-        <div>
-          <h2>Cursos</h2>
-          <div>
-            <img src="./assets/inicio/cursos/eclipse-1.png" alt="">
-            <h3>Manicuría Experta</h3>
+      <section class="container-1">
+        <div class="cursos">
+            <h2>Cursos</h2>
+            <div class="curso-1">
+              <img src="../assets/inicio/cursos/eclipse-1.png" alt="">
+              <h3>Manicuría Experta</h3>
+            </div>
+            <div class="curso-2">
+              <img src="../assets/inicio/cursos/eclipse-2.png" alt="">
+              <h3>Manicuría C/Torno combinada + Capping + Nivelación y Retirado</h3>
+            </div>
+            <div class="curso-3">
+              <img src="../assets/inicio/cursos/eclipse-3.png" alt="">
+              <h3>Curso inicial de esculpido</h3>
+            </div>
+            <div class="button-container">
+              <button>VER MAS</button>
+            </div>
           </div>
-          <div>
-            <img src="./assets/inicio/cursos/eclipse-2.png" alt="">
-            <h3>Manicuría C/Torno combinada + Capping + Nivelación + Retirado</h3>
-          </div>
-          <div>
-            <img src="./assets/inicio/cursos/eclipse-3.png" alt="">
-            <h3>Curso inicial de esculpido</h3>
-          </div>
-          <button>VER MAS</button>
-        </div>
-        <div>
-          <h2>Servicios</h2>
-          <div>
-            <img src="./assets/inicio/servicios/manicuria-servicios.png" alt="Servicio de Manicuría">
-            <h3>Manicuría</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-          <div>
-            <img src="./assets/inicio/servicios/masajes-servicios.png" alt="Servicio de Masajes">
-            <h3>Masajes</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-          </div>
-          <div>
-            <img src="./assets/inicio/servicios/depilacion-servicios.png" alt="Servicios de Depilación Defnitiva">
-            <h3>Depilación definitiva</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-          </div>
-          <button>VER MAS</button>
+          <div class="servicios">
+            <h2>Servicios</h2>
+            <div class="servicio-1">
+                <div>
+                  <img src="../assets/inicio/servicios/manicuria-servicios.png" alt="Servicio de Manicuría">
+                </div>
+                <div>
+                  <h3>Manicuría</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="servicio-2">
+                <div>
+                  <img src="../assets/inicio/servicios/masajes-servicios.png" alt="Servicio de Masajes">
+                </div>
+                <div>
+                  <h3>Masajes</h3>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="servicio-3">
+                <div>
+                  <img src="../assets/inicio/servicios/depilacion-servicios.png" alt="Servicios de Depilación Defnitiva">
+                </div>
+                <div>
+                  <h3>Depilación definitiva</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</>
+                </div>
+            </div>
+            <div class="button-container">
+              <button>VER MAS</button>
+            </div>
         </div>
       </section>
-      <section>
-        <h2>Sobre nosotros</h2>
-        <img src="./assets/inicio/nosotros/nosotros-inicio.png" alt="Nosotros">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id accusantiusass --watch ./scss/style.scss ./css/style.cssm voluptatibus maxime assumenda sequi debitis vitae quaerat rerum, ducimus necessitatibus voluptates dolorem expedita soluta tempore qui. Incidunt totam facere omnis?</p>
-        <button>Mas sobre nosotros</button>
+      <section class="container-nosotros">
+        <div>
+          <h2>Sobre nosotros</h2>
+        </div>
+        <div>
+          <img src="../assets/inicio/nosotros/nosotros-inicio.png" alt="Nosotros">
+        </div>
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id accusantiusass --watch ./scss/style.scss ./css/style.cssm voluptatibus maxime assumenda sequi debitis vitae quaerat rerum, ducimus necessitatibus voluptates dolorem expedita soluta tempore qui. Incidunt totam facere omnis?</p>
+        </div>
+        <div class="container-button-nosotros">
+          <button>Mas sobre nosotros</button>
+        </div>
       </section>
     </main>
     <footer>
-      <div>
-        <div>
+      <div class="container-footer">
+        <div class="redes-footer">
           <a href=""><img src="./assets/redes-sociales/facebook-circle-logo-24.png" alt=""></a>
           <a href=""><img src="./assets/redes-sociales/instagram-alt-logo-24.png" alt=""></a>
           <a href=""><img src="./assets/redes-sociales/tiktok-logo-24.png" alt=""></a>
@@ -95,7 +123,7 @@
           <li><a href="./pages/nosotros.html">Nosotros</a></li>
         </ul>
       </nav>
-      <div>
+      <div class="ubicacion">
         <a href=""><img src="./assets/ubicacion/map-solid-24.png" alt="">Santa Fe - Argentina</a>
       </div>
       </div>

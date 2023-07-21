@@ -1,29 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lu Neira</title>
     <link rel="stylesheet" href="../css/style.css">
-</head>
+    <script src="https://kit.fontawesome.com/5f6666b2e1.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
 <body>
   <div>
+    <!-- Comienza el Header -->
     <header>
-      <img width="100px" src="../assets/logo/logo.png" alt="Logo Lu Neira">
       <div>
-        <img src="../assets/redes-sociales/facebook-circle-logo-24.png" alt="">
-        <img src="../assets/redes-sociales/instagram-alt-logo-24.png" alt="">
-        <img src="../assets/redes-sociales/tiktok-logo-24.png" alt="">
+        <nav>
+          <div class="redes-sociales">
+            <a href=""><img src="../assets/redes-sociales/facebook-circle-logo-24.png" alt=""></a>
+            <a href=""><img src="../assets/redes-sociales/instagram-alt-logo-24.png" alt=""></a>
+            <a href=""><img src="../assets/redes-sociales/tiktok-logo-24.png" alt=""></a>
+          </div>
+          <input type="checkbox" id="check">
+          <label for="check" class="bar-btn">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+          <ul class="nav-menu">
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="../pages/cursos.html">Cursos</a></li>
+            <li><a href="../pages/servicios.html">Servicios</a></li>
+            <li><a class="active" href="../pages/nosotros.html">Nosotros</a></li>
+            <li><a href="../pages/pruebas.html">Pruebas</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="./cursos.html"> Cursos</a></li>
-          <li><a href="./servicios.html">Servicios</a></li>
-          <li><a href="./nosotros.html">Nosotros</a></li>
-        </ul>
-      </nav>
+      <div class="logo-img">
+        <img src="../assets/logo/logo.png" alt="Logo Lu Neira">
+      </div>
     </header>
+    <!-- Termina el Header -->
+    <!-- Comienza el Main -->
     <main>
       <h1> ¿Quien Soy? </h1>
       <img src="../assets/nosotros/luisinaneira.png" alt="Luisina Neira">
@@ -39,9 +53,11 @@
         voluptatem.
       </p>
     </main>
+    <!-- Termina el Main -->
+    <!-- Comienza el Footer -->
     <footer>
-      <div>
-        <div>
+      <div class="container-footer">
+        <div class="redes-footer">
           <a href=""><img src="../assets/redes-sociales/facebook-circle-logo-24.png" alt=""></a>
           <a href=""><img src="../assets/redes-sociales/instagram-alt-logo-24.png" alt=""></a>
           <a href=""><img src="../assets/redes-sociales/tiktok-logo-24.png" alt=""></a>
@@ -49,16 +65,17 @@
       <nav>
         <ul>
           <li><a href="../index.html">Inicio</a></li>
-          <li><a href="./cursos.html"> Cursos</a></li>
-          <li><a href="./servicios.html">Servicios</a></li>
-          <li><a href="./nosotros.html">Nosotros</a></li>
+          <li><a href="../pages/cursos.html"> Cursos</a></li>
+          <li><a href="../pages/servicios.html">Servicios</a></li>
+          <li><a href="../pages/nosotros.html">Nosotros</a></li>
         </ul>
       </nav>
-      <div>
+      <div class="ubicacion">
         <a href=""><img src="../assets/ubicacion/map-solid-24.png" alt="">Santa Fe - Argentina</a>
       </div>
       </div>
     </footer>
+    <!-- Termina el Footer -->
   </div>
 </body>
 </html>

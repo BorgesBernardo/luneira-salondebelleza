@@ -1,0 +1,104 @@
+main{
+    .encabezado{
+        margin: 20px 20px;
+        h1{
+            text-align: center;
+            margin: 20px 10px;
+        }
+        h4{
+            text-align: center;
+        }
+    }
+    .container-1{
+        .cursos{
+            margin: 20px 15px;
+            h2{
+                text-align: center;
+            }
+            .curso-1{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin: 20px 0px;
+                gap: 10px;
+            }
+            .curso-2{
+                display: flex;
+                flex-direction: row-reverse;
+                align-items: center;
+                margin: 20px 0px;
+                gap: 10px;
+                font-size: 15px;
+            }
+            .curso-3{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin: 20px 0px;
+                gap: 10px;
+            }
+            .button-container{
+                margin: 20px 0px;
+                display: flex;
+                justify-content: center;
+                button{
+                    padding: 10px 10px;
+                }
+            }
+        }
+        .servicios{
+            margin: 20px 15px;
+            h2{
+                text-align: center;
+            }
+            .servicio-1{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin: 20px 0px;
+                gap: 10px;
+            }
+            .servicio-2{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin: 20px 0px;
+                gap: 10px;
+                font-size: 15px;
+            }
+            .servicio-3{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin: 20px 0px;
+                gap: 10px;
+            }
+            .button-container{
+                margin: 20px 0px;
+                display: flex;
+                justify-content: center;
+                button{
+                    padding: 10px 10px;
+                }
+            }
+        }
+    }
+    .container-nosotros{
+        background-color: #CBCBCB;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        text-align: center;
+        h2{
+            text-align: center;
+            margin: 20px 0px;
+        }
+        .container-button-nosotros{
+            margin-bottom: 20px;
+            button{
+                padding: 20px 20px;
+                border-radius: 3px solid red;
+            }
+        }
+    }
+}
