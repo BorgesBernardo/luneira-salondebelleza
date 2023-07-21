@@ -1,104 +1,112 @@
 main{
-    .encabezado{
-        margin: 20px 20px;
-        h1{
-            text-align: center;
-            margin: 20px 10px;
-        }
-        h4{
-            text-align: center;
-        }
+  .encabezado{
+    margin: 20px 20px;
+    h1{
+      text-align: center;
+      margin: 0px 0px;
+      font-size: 25px;
     }
-    .container-1{
-        .cursos{
-            margin: 20px 15px;
-            h2{
-                text-align: center;
-            }
-            .curso-1{
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                margin: 20px 0px;
-                gap: 10px;
-            }
-            .curso-2{
-                display: flex;
-                flex-direction: row-reverse;
-                align-items: center;
-                margin: 20px 0px;
-                gap: 10px;
-                font-size: 15px;
-            }
-            .curso-3{
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                margin: 20px 0px;
-                gap: 10px;
-            }
-            .button-container{
-                margin: 20px 0px;
-                display: flex;
-                justify-content: center;
-                button{
-                    padding: 10px 10px;
-                }
-            }
-        }
-        .servicios{
-            margin: 20px 15px;
-            h2{
-                text-align: center;
-            }
-            .servicio-1{
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                margin: 20px 0px;
-                gap: 10px;
-            }
-            .servicio-2{
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                margin: 20px 0px;
-                gap: 10px;
-                font-size: 15px;
-            }
-            .servicio-3{
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                margin: 20px 0px;
-                gap: 10px;
-            }
-            .button-container{
-                margin: 20px 0px;
-                display: flex;
-                justify-content: center;
-                button{
-                    padding: 10px 10px;
-                }
-            }
-        }
+    h4{
+      font-weight: 200;
+      padding-top: 5px;
+      text-align: center;
+      font-size: 15px;
     }
-    .container-nosotros{
-        background-color: #CBCBCB;
+  }
+  .container-1{
+    h2{
+      background-color: $bg-footer;
+      text-align: center;
+      color: $color-texto;
+    }
+    .cursos{
+      margin: 20px 15px;
+      .curso-1{
         display: flex;
-        flex-direction: column;
-        gap:20px;
-        text-align: center;
-        h2{
-            text-align: center;
-            margin: 20px 0px;
-        }
-        .container-button-nosotros{
-            margin-bottom: 20px;
-            button{
-                padding: 20px 20px;
-                border-radius: 3px solid red;
-            }
-        }
+        flex-direction: row;
+        align-items: center;
+        margin: 20px 0px;
+        gap: 10px;
+      }
+      .curso-2{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin: 20px 0px;
+        gap: 10px;
+        font-size: 15px;
+      }
+      .curso-3{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 20px 0px;
+        gap: 10px;
+      }
     }
+    .button-container{
+      margin: 20px 0px;
+      text-align: center;
+      button{
+        padding: 20px 30px;
+        border-radius: 20px;
+        box-shadow: 2px 1px 15px 0px black;
+        background-color: $bg-footer;
+        color: $color-texto;
+        font-weight: bold;
+        border: transparent;
+      }
+    }
+    .servicios{
+      margin: 20px 15px;
+      h2{
+        text-align: center;
+      }
+      .servicio-1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 20px 0px;
+        gap: 10px;
+      }
+      .servicio-2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 20px 0px;
+        gap: 10px;
+        font-size: 15px;
+      }
+      .servicio-3{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 20px 0px;
+        gap: 10px;
+      }
+    }
+  }
+  .container-nosotros{
+    background-color: #CBCBCB;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    text-align: center;
+    h2{
+      text-align: center;
+      margin: 20px 0px;
+    }
+    .container-button-nosotros{
+      margin-bottom: 20px;
+      button{
+        padding: 20px 40px;
+        border-radius: 30px;
+        box-shadow: 2px 1px 15px 0px black;
+        background-color: $bg-footer;
+        color: $color-texto;
+        font-weight: bold;
+        border: transparent;
+      }
+    }
+  }
 }

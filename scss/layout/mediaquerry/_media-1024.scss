@@ -1,0 +1,86 @@
+@media screen and (min-width: 1024px) {
+  body{
+    header{
+      nav{
+        height: 100px;
+        align-items: center;
+        .redes-sociales{
+          display: flex;
+        }
+        .bar-btn{
+          display: none;
+        }
+        .nav-menu{
+          position: relative;
+          height: 100px;
+          top: 0;
+          background: none;
+          transition: none;
+          text-align: right;
+          margin-right: 20px;
+          li{
+            display: inline-block;
+            line-height: 100px;
+            margin: 0;
+            transition: none;
+            a{
+              font-size: 20px;
+              padding: 0px 10px;
+            }
+          }
+        }
+      }
+    }
+    main{
+      .container-1{
+        
+        .cursos{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          margin: 0px 40px;
+          gap: 20px;
+          .curso-1{
+            flex-direction: column;
+            padding: 0px 20px;
+          }
+          .curso-2{
+            flex-direction: column;
+            padding: 0px 100px;
+          }
+          .curso-3{
+            flex-direction: column;
+            padding: 0px 20px;
+          }
+        }
+        .servicios{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          text-align: center;
+          gap: 20px;
+          .servicio-1{
+            flex-direction: column;
+            .texto-servicio{
+              padding: 0px 50px;
+            }
+          }
+          .servicio-2{
+            flex-direction: column;
+            .texto-servicio{
+              padding: 0px 50px;
+            }
+          }
+          .servicio-3{
+            flex-direction: column;
+            .texto-servicio{
+              padding: 0px 50px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

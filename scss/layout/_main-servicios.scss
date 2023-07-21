@@ -5,6 +5,8 @@ body{
       padding-top: 40px;
     }
     .section_servicios{
+      display: flex;
+      flex-direction: column;
       .container-main{
         position: relative;
         width: 289px;

@@ -4,6 +4,8 @@ body{
       text-align: center;
     }
     .section_cursos{
+      display: flex;
+      flex-direction: column;
       .container-main{
         position: relative;
         width: 289px;

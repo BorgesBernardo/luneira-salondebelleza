@@ -12,7 +12,7 @@
 */
 header {
   width: 100%;
-  height: 18vh;
+  height: 12.125rem;
   background-color: #E1D0E1;
   align-items: center;
   position: relative;
@@ -23,17 +23,17 @@ header nav {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: space-between;
   align-items: center;
 }
 header nav .redes-sociales {
-  margin-right: 40px;
+  margin-left: 50px;
 }
 header nav .redes-sociales a img {
-  width: 50px;
+  width: 40px;
 }
 header nav .bar-btn {
-  font-size: 20px;
+  font-size: 30px;
   color: black;
   margin-right: 20px;
   cursor: pointer;
@@ -42,7 +42,7 @@ header nav ul {
   position: fixed;
   width: 100%;
   height: 0vh;
-  top: 11.5rem;
+  top: 12.125rem;
   background: #BA4D74;
   text-align: center;
   transition: all 1s;
@@ -63,7 +63,7 @@ header nav ul li a {
 header .logo-img img {
   width: 6.25rem;
   display: block;
-  margin: auto auto;
+  margin: 0px auto;
 }
 
 .nav-menu li a.active, .nav-menu li a:hover {
@@ -88,21 +88,33 @@ body {
   background-color: #EEEEEE;
 }
 
+.index {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 12.125rem 1fr 8.5625rem;
+}
+
 main .encabezado {
   margin: 20px 20px;
 }
 main .encabezado h1 {
   text-align: center;
-  margin: 20px 10px;
+  margin: 0px 0px;
+  font-size: 25px;
 }
 main .encabezado h4 {
+  font-weight: 200;
+  padding-top: 5px;
   text-align: center;
+  font-size: 15px;
+}
+main .container-1 h2 {
+  background-color: #BA4D74;
+  text-align: center;
+  color: #fff;
 }
 main .container-1 .cursos {
   margin: 20px 15px;
-}
-main .container-1 .cursos h2 {
-  text-align: center;
 }
 main .container-1 .cursos .curso-1 {
   display: flex;
@@ -126,13 +138,18 @@ main .container-1 .cursos .curso-3 {
   margin: 20px 0px;
   gap: 10px;
 }
-main .container-1 .cursos .button-container {
+main .container-1 .button-container {
   margin: 20px 0px;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
-main .container-1 .cursos .button-container button {
-  padding: 10px 10px;
+main .container-1 .button-container button {
+  padding: 20px 30px;
+  border-radius: 20px;
+  box-shadow: 2px 1px 15px 0px black;
+  background-color: #BA4D74;
+  color: #fff;
+  font-weight: bold;
+  border: transparent;
 }
 main .container-1 .servicios {
   margin: 20px 15px;
@@ -162,14 +179,6 @@ main .container-1 .servicios .servicio-3 {
   margin: 20px 0px;
   gap: 10px;
 }
-main .container-1 .servicios .button-container {
-  margin: 20px 0px;
-  display: flex;
-  justify-content: center;
-}
-main .container-1 .servicios .button-container button {
-  padding: 10px 10px;
-}
 main .container-nosotros {
   background-color: #CBCBCB;
   display: flex;
@@ -185,12 +194,21 @@ main .container-nosotros .container-button-nosotros {
   margin-bottom: 20px;
 }
 main .container-nosotros .container-button-nosotros button {
-  padding: 20px 20px;
-  border-radius: 3px solid red;
+  padding: 20px 40px;
+  border-radius: 30px;
+  box-shadow: 2px 1px 15px 0px black;
+  background-color: #BA4D74;
+  color: #fff;
+  font-weight: bold;
+  border: transparent;
 }
 
 body main .titulo {
   text-align: center;
+}
+body main .section_cursos {
+  display: flex;
+  flex-direction: column;
 }
 body main .section_cursos .container-main {
   position: relative;
@@ -232,6 +250,10 @@ body main .section_cursos .container-main .container-curso .button-cards button 
 body main .titulo {
   text-align: center;
   padding-top: 40px;
+}
+body main .section_servicios {
+  display: flex;
+  flex-direction: column;
 }
 body main .section_servicios .container-main {
   position: relative;
@@ -317,6 +339,97 @@ footer .container-footer .ubicacion {
 footer .container-footer .ubicacion a {
   text-decoration: none;
   color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  body main .container-1 .titulo_index {
+    margin: 0px 0px 40px 20px;
+  }
+  body main .section_cursos {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  body main .section_servicios {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body header nav {
+    height: 100px;
+    align-items: center;
+  }
+  body header nav .redes-sociales {
+    display: flex;
+  }
+  body header nav .bar-btn {
+    display: none;
+  }
+  body header nav .nav-menu {
+    position: relative;
+    height: 100px;
+    top: 0;
+    background: none;
+    transition: none;
+    text-align: right;
+    margin-right: 20px;
+  }
+  body header nav .nav-menu li {
+    display: inline-block;
+    line-height: 100px;
+    margin: 0;
+    transition: none;
+  }
+  body header nav .nav-menu li a {
+    font-size: 20px;
+    padding: 0px 10px;
+  }
+  body main .container-1 .cursos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 40px;
+    gap: 20px;
+  }
+  body main .container-1 .cursos .curso-1 {
+    flex-direction: column;
+    padding: 0px 20px;
+  }
+  body main .container-1 .cursos .curso-2 {
+    flex-direction: column;
+    padding: 0px 100px;
+  }
+  body main .container-1 .cursos .curso-3 {
+    flex-direction: column;
+    padding: 0px 20px;
+  }
+  body main .container-1 .servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+  }
+  body main .container-1 .servicios .servicio-1 {
+    flex-direction: column;
+  }
+  body main .container-1 .servicios .servicio-1 .texto-servicio {
+    padding: 0px 50px;
+  }
+  body main .container-1 .servicios .servicio-2 {
+    flex-direction: column;
+  }
+  body main .container-1 .servicios .servicio-2 .texto-servicio {
+    padding: 0px 50px;
+  }
+  body main .container-1 .servicios .servicio-3 {
+    flex-direction: column;
+  }
+  body main .container-1 .servicios .servicio-3 .texto-servicio {
+    padding: 0px 50px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
