@@ -3,7 +3,7 @@ body{
     .titulo{
       text-align: center;
     }
-    section{
+    .section_cursos{
       .container-main{
         position: relative;
         width: 289px;
@@ -35,7 +35,7 @@ body{
           text-align: center;
           margin: 10px 30px;
           gap: 10px;
-          .boton-info-1{
+          .button-cards{
             button{
               padding: 5px 10px;
             }

@@ -30,16 +30,15 @@ header{
       position: fixed;
       width: 100%;
       height: 0vh;
-      top: 11.6875rem;
+      top: 11.5rem;
       background: $bg-footer;
       text-align: center;
-      transition: all 0.5;
+      transition: all 1s;
       li{
         list-style: none;
         display: none;
         line-height: 30px;
         margin: 50px 0px;
-        transition: all 0.5;
         a{
           text-decoration: none;
           color: $color-texto;
@@ -61,7 +60,7 @@ header{
 
 .nav-menu li a.active, .nav-menu li a:hover{
   color: $color-botones;
-  transition: 0.3s;
+  transition: all 0.5s;
 }
 
 #check{
@@ -69,7 +68,8 @@ header{
 }
 
 #check:checked ~ .nav-menu{
-  height: 45vh;
+  height: 100vh;
+  transition: all 0.3s;
 }
 
 #check:checked ~ .nav-menu li{

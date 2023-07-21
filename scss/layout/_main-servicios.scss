@@ -1,0 +1,43 @@
+body{
+  main{
+    .titulo{
+      text-align: center;
+      padding-top: 40px;
+    }
+    .section_servicios{
+      .container-main{
+        position: relative;
+        width: 289px;
+        height: 388px;
+        margin: 50px auto;
+        .caja-principal{
+          background-color: $bg-footer;
+          width: 289px;
+          height: 388px;
+          position: absolute;
+          border-radius: 20px;
+        }
+        .caja-flex{
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          .foto-servicio{
+            border-radius: 20px 20px 0px 0px;
+          }
+          .texto-servicio{
+            color: white;
+            text-align: center;
+            top:180px;
+            padding: 20px 20px;
+          }
+          .button-cards{
+            margin: 10px auto;
+            button{
+              padding: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
