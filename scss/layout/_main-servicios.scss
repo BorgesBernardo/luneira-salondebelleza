@@ -2,40 +2,60 @@ body{
   main{
     .titulo{
       text-align: center;
-      padding-top: 40px;
+      padding-top: 2.5rem;
     }
     .section_servicios{
       display: flex;
       flex-direction: column;
       .container-main{
         position: relative;
-        width: 289px;
-        height: 388px;
-        margin: 50px auto;
+        width: 18.0625rem;
+        height: 24.25rem;
+        margin: 1.25rem auto;
         .caja-principal{
           background-color: $bg-footer;
-          width: 289px;
-          height: 388px;
+          width: 18.0625rem;
+          height: 24.25rem;
           position: absolute;
-          border-radius: 20px;
+          border-radius: 1.25rem;
         }
         .caja-flex{
           position: absolute;
           display: flex;
           flex-direction: column;
           .foto-servicio{
-            border-radius: 20px 20px 0px 0px;
+            border-radius: 1.25rem 1.25rem 0rem 0rem;
+            width: 18.0625rem;
+            height: 9.8125rem;
+            img{
+              border-radius: 1.25rem 1.25rem 0rem 0rem;
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              object-position: center;
+            }
           }
           .texto-servicio{
             color: white;
             text-align: center;
-            top:180px;
-            padding: 20px 20px;
+            top:11.25rem;
+            padding: 1.25rem 1.25rem;
           }
           .button-cards{
-            margin: 10px auto;
+            margin: 0.4375rem 0rem .3125rem 0rem;
+            text-align: center;
             button{
-              padding: 10px;
+              padding: .8125rem 2.5rem;
+              border-radius: .625rem;
+              box-shadow: .125rem .0625rem .9375rem 0rem black;
+              background-color: $bg-header;
+              color: $bg-footer;
+              font-weight: bold;
+              border: transparent;
+            }
+            button:hover{
+              transform: scale(1.1);
+              transition: all 0.5s;
             }
           }
         }

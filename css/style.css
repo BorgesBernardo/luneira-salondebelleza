@@ -27,15 +27,15 @@ header nav {
   align-items: center;
 }
 header nav .redes-sociales {
-  margin-left: 50px;
+  margin-left: 3.125rem;
 }
 header nav .redes-sociales a img {
-  width: 40px;
+  width: 2.5rem;
 }
 header nav .bar-btn {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: black;
-  margin-right: 20px;
+  margin-right: 1.25rem;
   cursor: pointer;
 }
 header nav ul {
@@ -45,30 +45,29 @@ header nav ul {
   top: 12.125rem;
   background: #BA4D74;
   text-align: center;
-  transition: all 1s;
 }
 header nav ul li {
   list-style: none;
   display: none;
-  line-height: 30px;
-  margin: 50px 0px;
+  line-height: 1.875rem;
+  margin: 3.125rem 0rem;
 }
 header nav ul li a {
   text-decoration: none;
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
   text-transform: uppercase;
   font-weight: 600;
 }
 header .logo-img img {
   width: 6.25rem;
   display: block;
-  margin: 0px auto;
+  margin: 0rem auto;
 }
 
 .nav-menu li a.active, .nav-menu li a:hover {
   color: #E3B0D5;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 
 #check {
@@ -94,113 +93,157 @@ body {
   grid-template-rows: 12.125rem 1fr 8.5625rem;
 }
 
+.cursos {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 12.125rem 1fr 8.5625rem;
+}
+
+.servicios {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 12.125rem 1fr 8.5625rem;
+}
+
+.nosotros {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 12.125rem 1fr 8.5625rem;
+}
+
 main .encabezado {
-  margin: 20px 20px;
+  margin: 1.25rem 1.25rem;
 }
 main .encabezado h1 {
   text-align: center;
-  margin: 0px 0px;
-  font-size: 25px;
+  margin: 0rem 0rem;
+  font-size: 1.5625rem;
 }
 main .encabezado h4 {
   font-weight: 200;
-  padding-top: 5px;
+  padding-top: 0.3125rem;
   text-align: center;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
-main .container-1 h2 {
-  background-color: #BA4D74;
+main .container-1 .titulo_index h2 {
   text-align: center;
-  color: #fff;
+  margin-bottom: 1.25rem;
 }
 main .container-1 .cursos {
-  margin: 20px 15px;
+  padding: 0.625rem 0.625rem;
 }
 main .container-1 .cursos .curso-1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 20px 0px;
-  gap: 10px;
+  margin: 1.25rem 0rem;
+  gap: 0.625rem;
 }
 main .container-1 .cursos .curso-2 {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  margin: 20px 0px;
-  gap: 10px;
-  font-size: 15px;
+  margin: 1.25rem 0rem;
+  gap: 0.625rem;
+  font-size: 0.9375rem;
 }
 main .container-1 .cursos .curso-3 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 20px 0px;
-  gap: 10px;
+  margin: 1.25rem 0rem;
+  gap: 0.625rem;
 }
 main .container-1 .button-container {
-  margin: 20px 0px;
+  margin: 1.25rem 0rem;
   text-align: center;
 }
 main .container-1 .button-container button {
-  padding: 20px 30px;
-  border-radius: 20px;
-  box-shadow: 2px 1px 15px 0px black;
+  padding: 1.25rem 1.875rem;
+  border-radius: 1.25rem;
+  box-shadow: 0.125rem 0.0625rem 0.9375rem 0rem black;
   background-color: #BA4D74;
   color: #fff;
   font-weight: bold;
   border: transparent;
 }
-main .container-1 .servicios {
-  margin: 20px 15px;
+main .container-1 .button-scale:hover {
+  transform: scale(1.3);
+  transition: all 0.5s;
 }
-main .container-1 .servicios h2 {
+main .container-1 .h2-index-servicio h2 {
   text-align: center;
+  padding-top: 1.25rem;
+  background-color: #BA4D74;
+  color: #fff;
+}
+main .container-1 .servicios {
+  background-color: #BA4D74;
+  padding: 0.625rem 0.625rem;
+  color: #fff;
 }
 main .container-1 .servicios .servicio-1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 20px 0px;
-  gap: 10px;
+  margin: 1.25rem 0rem;
+  gap: 0.625rem;
 }
 main .container-1 .servicios .servicio-2 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 20px 0px;
-  gap: 10px;
-  font-size: 15px;
+  margin: 1.25rem 0rem;
+  gap: 0.625rem;
+  font-size: 0.9375rem;
 }
 main .container-1 .servicios .servicio-3 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 20px 0px;
-  gap: 10px;
+  margin: 1.25rem 0rem;
+  gap: 0.625rem;
+}
+main .container-1 .button-container-servicio {
+  background-color: #BA4D74;
+  text-align: center;
+  padding-bottom: 1.25rem;
+}
+main .container-1 .button-container-servicio button {
+  padding: 1.25rem 1.875rem;
+  border-radius: 1.25rem;
+  box-shadow: 0.125rem 0.0625rem 0.9375rem 0rem black;
+  background-color: #BA4D74;
+  color: #fff;
+  font-weight: bold;
+  border: transparent;
 }
 main .container-nosotros {
   background-color: #CBCBCB;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1.25rem;
   text-align: center;
 }
 main .container-nosotros h2 {
   text-align: center;
-  margin: 20px 0px;
+  margin: 1.25rem 0rem;
 }
 main .container-nosotros .container-button-nosotros {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 main .container-nosotros .container-button-nosotros button {
-  padding: 20px 40px;
-  border-radius: 30px;
-  box-shadow: 2px 1px 15px 0px black;
+  padding: 1.25rem 2.5rem;
+  border-radius: 1.875rem;
+  box-shadow: 0.125rem 0.0625rem 0.9375rem 0rem black;
   background-color: #BA4D74;
   color: #fff;
   font-weight: bold;
   border: transparent;
+}
+main .container-nosotros .button-scale:hover {
+  transform: scale(1.3);
+  transition: all 0.5s;
 }
 
 body main .titulo {
@@ -209,26 +252,27 @@ body main .titulo {
 body main .section_cursos {
   display: flex;
   flex-direction: column;
+  margin: 2.3563rem 0rem;
 }
 body main .section_cursos .container-main {
   position: relative;
-  width: 289px;
-  height: 388px;
-  margin: 50px auto;
+  width: 18.0625rem;
+  height: 25rem;
+  margin: 1.25rem auto;
 }
 body main .section_cursos .container-main .caja-principal {
   background-color: #E1D0E1;
-  width: 289px;
-  height: 388px;
+  width: 18.0625rem;
+  height: 25rem;
   position: absolute;
-  border-radius: 62px;
+  border-radius: 3.875rem;
 }
 body main .section_cursos .container-main .caja-secundaria {
   background-color: #BA4D74;
-  width: 235px;
-  height: 300px;
+  width: 14.6875rem;
+  height: 18.75rem;
   position: absolute;
-  top: 0;
+  top: 2.5rem;
   left: 0;
   right: 0;
   bottom: 0;
@@ -240,16 +284,30 @@ body main .section_cursos .container-main .container-curso {
   position: absolute;
   color: white;
   text-align: center;
-  margin: 10px 30px;
-  gap: 10px;
+  margin: 0.625rem 1.875rem;
+  gap: 0.625rem;
+}
+body main .section_cursos .container-main .container-curso .button-cards {
+  margin: 0.4375rem 0rem 0.3125rem 0rem;
+  text-align: center;
 }
 body main .section_cursos .container-main .container-curso .button-cards button {
-  padding: 5px 10px;
+  padding: 0.8125rem 2.5rem;
+  border-radius: 0.625rem;
+  box-shadow: 0.125rem 0.0625rem 0.9375rem 0rem black;
+  background-color: #E1D0E1;
+  color: #BA4D74;
+  font-weight: bold;
+  border: transparent;
+}
+body main .section_cursos .container-main .container-curso .button-cards button:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
 }
 
 body main .titulo {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 2.5rem;
 }
 body main .section_servicios {
   display: flex;
@@ -257,16 +315,16 @@ body main .section_servicios {
 }
 body main .section_servicios .container-main {
   position: relative;
-  width: 289px;
-  height: 388px;
-  margin: 50px auto;
+  width: 18.0625rem;
+  height: 24.25rem;
+  margin: 1.25rem auto;
 }
 body main .section_servicios .container-main .caja-principal {
   background-color: #BA4D74;
-  width: 289px;
-  height: 388px;
+  width: 18.0625rem;
+  height: 24.25rem;
   position: absolute;
-  border-radius: 20px;
+  border-radius: 1.25rem;
 }
 body main .section_servicios .container-main .caja-flex {
   position: absolute;
@@ -274,34 +332,54 @@ body main .section_servicios .container-main .caja-flex {
   flex-direction: column;
 }
 body main .section_servicios .container-main .caja-flex .foto-servicio {
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 1.25rem 1.25rem 0rem 0rem;
+  width: 18.0625rem;
+  height: 9.8125rem;
+}
+body main .section_servicios .container-main .caja-flex .foto-servicio img {
+  border-radius: 1.25rem 1.25rem 0rem 0rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 body main .section_servicios .container-main .caja-flex .texto-servicio {
   color: white;
   text-align: center;
-  top: 180px;
-  padding: 20px 20px;
+  top: 11.25rem;
+  padding: 1.25rem 1.25rem;
 }
 body main .section_servicios .container-main .caja-flex .button-cards {
-  margin: 10px auto;
+  margin: 0.4375rem 0rem 0.3125rem 0rem;
+  text-align: center;
 }
 body main .section_servicios .container-main .caja-flex .button-cards button {
-  padding: 10px;
+  padding: 0.8125rem 2.5rem;
+  border-radius: 0.625rem;
+  box-shadow: 0.125rem 0.0625rem 0.9375rem 0rem black;
+  background-color: #E1D0E1;
+  color: #BA4D74;
+  font-weight: bold;
+  border: transparent;
+}
+body main .section_servicios .container-main .caja-flex .button-cards button:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
 }
 
 body main .titulo_nosotros {
   text-align: center;
-  margin: 20px 0px;
+  margin: 1.25rem 0rem;
 }
 body main .container_nosotros {
   text-align: center;
 }
 body main .container_nosotros img {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 body main .container_nosotros p {
-  margin-bottom: 20px;
-  padding: 0px 20px;
+  margin-bottom: 1.25rem;
+  padding: 0rem 1.25rem;
 }
 
 footer {
@@ -314,18 +392,18 @@ footer .container-footer {
 }
 footer .container-footer .redes-footer {
   display: inline-block;
-  margin: 10px 0px;
+  margin: 0.625rem 0rem;
 }
 footer .container-footer .redes-footer a img {
-  padding: 0px 10px;
+  padding: 0rem 0.625rem;
 }
 footer .container-footer nav {
-  margin: 10px 0px;
+  margin: 0.625rem 0rem;
 }
 footer .container-footer nav ul {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 0.625rem;
   justify-content: center;
   list-style: none;
 }
@@ -334,7 +412,7 @@ footer .container-footer nav ul li a {
   color: #fff;
 }
 footer .container-footer .ubicacion {
-  margin: 10px 0px;
+  margin: 0.625rem 0rem;
 }
 footer .container-footer .ubicacion a {
   text-decoration: none;
@@ -342,9 +420,6 @@ footer .container-footer .ubicacion a {
 }
 
 @media screen and (min-width: 768px) {
-  body main .container-1 .titulo_index {
-    margin: 0px 0px 40px 20px;
-  }
   body main .section_cursos {
     flex-direction: row;
     flex-wrap: wrap;
@@ -354,9 +429,9 @@ footer .container-footer .ubicacion a {
     flex-wrap: wrap;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64rem) {
   body header nav {
-    height: 100px;
+    height: 6.25rem;
     align-items: center;
   }
   body header nav .redes-sociales {
@@ -367,22 +442,22 @@ footer .container-footer .ubicacion a {
   }
   body header nav .nav-menu {
     position: relative;
-    height: 100px;
+    height: 6.25rem;
     top: 0;
     background: none;
     transition: none;
     text-align: right;
-    margin-right: 20px;
+    margin-right: 1.25rem;
   }
   body header nav .nav-menu li {
     display: inline-block;
-    line-height: 100px;
+    line-height: 6.25rem;
     margin: 0;
     transition: none;
   }
   body header nav .nav-menu li a {
-    font-size: 20px;
-    padding: 0px 10px;
+    font-size: 1.25rem;
+    padding: 0rem 0.625rem;
   }
   body main .container-1 .cursos {
     display: flex;
@@ -390,45 +465,44 @@ footer .container-footer .ubicacion a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 0px 40px;
-    gap: 20px;
+    gap: 1.25rem;
   }
   body main .container-1 .cursos .curso-1 {
     flex-direction: column;
-    padding: 0px 20px;
+    padding: 0rem 3.125rem;
   }
   body main .container-1 .cursos .curso-2 {
     flex-direction: column;
-    padding: 0px 100px;
+    padding: 0rem 3.125rem;
   }
   body main .container-1 .cursos .curso-3 {
     flex-direction: column;
-    padding: 0px 20px;
+    padding: 0rem 3.125rem;
   }
   body main .container-1 .servicios {
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    gap: 20px;
+    gap: 1.25rem;
   }
   body main .container-1 .servicios .servicio-1 {
     flex-direction: column;
   }
   body main .container-1 .servicios .servicio-1 .texto-servicio {
-    padding: 0px 50px;
+    padding: 0rem 3.125rem;
   }
   body main .container-1 .servicios .servicio-2 {
     flex-direction: column;
   }
   body main .container-1 .servicios .servicio-2 .texto-servicio {
-    padding: 0px 50px;
+    padding: 0rem 3.125rem;
   }
   body main .container-1 .servicios .servicio-3 {
     flex-direction: column;
   }
   body main .container-1 .servicios .servicio-3 .texto-servicio {
-    padding: 0px 50px;
+    padding: 0rem 3.125rem;
   }
 }
 

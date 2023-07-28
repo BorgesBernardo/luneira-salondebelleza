@@ -13,17 +13,17 @@ header{
     justify-content: space-between;
     align-items: center;
     .redes-sociales{
-      margin-left: 50px;
+      margin-left: 3.125rem;
       a{
         img{
-          width: 40px;
+          width: 2.5rem;
         }
       }
     }
     .bar-btn{
-      font-size: 30px;
+      font-size: 1.875rem;
       color: black;
-      margin-right: 20px;
+      margin-right: 1.25rem;
       cursor: pointer;
     }
     ul{
@@ -33,16 +33,15 @@ header{
       top: 12.125rem;
       background: $bg-footer;
       text-align: center;
-      transition: all 1s;
       li{
         list-style: none;
         display: none;
-        line-height: 30px;
-        margin: 50px 0px;
+        line-height: 1.875rem;
+        margin: 3.125rem 0rem;
         a{
           text-decoration: none;
           color: $color-texto;
-          font-size: 16px;
+          font-size: 1rem;
           text-transform: uppercase;
           font-weight: 600;
         }
@@ -53,14 +52,14 @@ header{
     img{
       width: 6.25rem;
       display: block;
-      margin: 0px auto;
+      margin: 0rem auto;
     }
   }
 }
 
 .nav-menu li a.active, .nav-menu li a:hover{
   color: $color-botones;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 
 #check{

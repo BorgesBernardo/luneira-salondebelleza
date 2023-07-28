@@ -1,88 +1,114 @@
 main{
   .encabezado{
-    margin: 20px 20px;
+    margin: 1.25rem 1.25rem;
     h1{
       text-align: center;
-      margin: 0px 0px;
-      font-size: 25px;
+      margin: 0rem 0rem;
+      font-size: 1.5625rem;
     }
     h4{
       font-weight: 200;
-      padding-top: 5px;
+      padding-top: .3125rem;
       text-align: center;
-      font-size: 15px;
+      font-size: .9375rem;
     }
   }
   .container-1{
-    h2{
-      background-color: $bg-footer;
-      text-align: center;
-      color: $color-texto;
+    .titulo_index{
+      h2{
+        text-align: center;
+        margin-bottom: 1.25rem;
+      }
     }
     .cursos{
-      margin: 20px 15px;
+      padding: .625rem .625rem;
       .curso-1{
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin: 20px 0px;
-        gap: 10px;
+        margin: 1.25rem 0rem;
+        gap: .625rem;
       }
       .curso-2{
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
-        margin: 20px 0px;
-        gap: 10px;
-        font-size: 15px;
+        margin: 1.25rem 0rem;
+        gap: .625rem;
+        font-size: .9375rem;
       }
       .curso-3{
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin: 20px 0px;
-        gap: 10px;
+        margin: 1.25rem 0rem;
+        gap: .625rem;
       }
     }
     .button-container{
-      margin: 20px 0px;
+      margin: 1.25rem 0rem;
       text-align: center;
       button{
-        padding: 20px 30px;
-        border-radius: 20px;
-        box-shadow: 2px 1px 15px 0px black;
+        padding: 1.25rem 1.875rem;
+        border-radius: 1.25rem;
+        box-shadow: 0.125rem 0.0625rem 0.9375rem 0rem black;
         background-color: $bg-footer;
         color: $color-texto;
         font-weight: bold;
         border: transparent;
       }
     }
-    .servicios{
-      margin: 20px 15px;
+    .button-scale:hover{
+      transform: scale(1.3);
+      transition: all 0.5s;
+    }
+    .h2-index-servicio{
       h2{
         text-align: center;
+        padding-top: 1.25rem;
+        background-color: $bg-footer;
+        color: $color-texto;
       }
+    }
+    .servicios{
+      background-color: $bg-footer;
+      padding: .625rem .625rem;
+      color: $color-texto;
       .servicio-1{
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin: 20px 0px;
-        gap: 10px;
+        margin: 1.25rem 0rem;
+        gap: .625rem;
       }
       .servicio-2{
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin: 20px 0px;
-        gap: 10px;
-        font-size: 15px;
+        margin: 1.25rem 0rem;
+        gap: .625rem;
+        font-size: .9375rem;
       }
       .servicio-3{
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin: 20px 0px;
-        gap: 10px;
+        margin: 1.25rem 0rem;
+        gap: 0.625rem;
+      }
+    }
+    .button-container-servicio{
+      background-color: $bg-footer;
+      text-align: center;
+      padding-bottom: 1.25rem;
+      button{
+        padding: 1.25rem 1.875rem;
+        border-radius: 1.25rem;
+        box-shadow: .125rem .0625rem .9375rem 0rem black;
+        background-color: $bg-footer;
+        color: $color-texto;
+        font-weight: bold;
+        border: transparent;
       }
     }
   }
@@ -90,23 +116,27 @@ main{
     background-color: #CBCBCB;
     display: flex;
     flex-direction: column;
-    gap:20px;
+    gap: 1.25rem;
     text-align: center;
     h2{
       text-align: center;
-      margin: 20px 0px;
+      margin: 1.25rem 0rem;
     }
     .container-button-nosotros{
-      margin-bottom: 20px;
+      margin-bottom: 1.25rem;
       button{
-        padding: 20px 40px;
-        border-radius: 30px;
-        box-shadow: 2px 1px 15px 0px black;
+        padding: 1.25rem 2.5rem;
+        border-radius: 1.875rem;
+        box-shadow: .125rem .0625rem .9375rem 0rem black;
         background-color: $bg-footer;
         color: $color-texto;
         font-weight: bold;
         border: transparent;
       }
+    }
+    .button-scale:hover{
+      transform: scale(1.3);
+      transition: all 0.5s;
     }
   }
 }
