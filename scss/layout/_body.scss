@@ -5,23 +5,29 @@ body{
 .index{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 12.125rem 1fr 8.5625rem;
-}
-
-.cursos{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 12.125rem 1fr 8.5625rem;
+    grid-template-rows: 15rem 1fr 8.5625rem;
 }
 
 .servicios{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 12.125rem 1fr 8.5625rem;
+    grid-template-rows: 15rem 1fr 8.5625rem;
+}
+
+.servicios-faciales{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15rem 1fr 8.5625rem;
+}
+
+.servicios-corporales{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15rem 1fr 8.5625rem;
 }
 
 .nosotros{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 12.125rem 1fr 8.5625rem;
+    grid-template-rows: 15rem 1fr 8.5625rem;
 }

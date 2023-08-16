@@ -11,18 +11,18 @@ body{
         position: relative;
         width: 18.0625rem;
         height: 25rem;
-        margin: 1.25rem auto;
+        margin: 0rem auto 4rem auto;
         .caja-principal{
           background-color: $bg-header;
           width: 18.0625rem;
-          height: 25rem;
+          height: 26rem;
           position: absolute;
           border-radius: 3.875rem;
         }
         .caja-secundaria{
           background-color: $bg-footer;
           width: 14.6875rem;
-          height: 18.75rem;
+          height: 20rem;
           position: absolute;
           top: 2.5rem;
           left: 0;
@@ -34,10 +34,15 @@ body{
           display: flex;
           flex-direction: column;
           position: absolute;
-          color:white;
+          color:$color-texto;
           text-align: center;
-          margin: .625rem 1.875rem;
-          gap: .625rem;
+          margin: 0.625rem 1.875rem;
+          gap: 0.625rem;
+          img{
+            padding: .3125rem .3125rem;
+            background-color: #ffff;
+            border-radius: 20rem;
+          }
           .button-cards{
             margin: .4375rem 0rem .3125rem 0rem;
             text-align: center;
@@ -46,7 +51,7 @@ body{
               border-radius: .625rem;
               box-shadow: .125rem .0625rem .9375rem 0rem black;
               background-color: $bg-header;
-              color: $bg-footer;
+              color: $color-texto;
               font-weight: bold;
               border: transparent;
             }

@@ -1,29 +1,38 @@
-body{
+.servicios-corporales{
   main{
-    .titulo{
+    margin-bottom: 1.25rem;
+    .boton-volver{
+      margin: .625rem .625rem;
+      button{
+        padding: 0.5rem 2rem;
+        border-radius: 0.625rem;
+      }
+    }
+    .titulo_tratamientos-corporales{
       text-align: center;
       padding-top: 2.5rem;
+      font-size: 0.9375rem;
     }
-    .section_servicios{
+    .section_servicios_tratamientos-corporales{
       display: flex;
       flex-direction: column;
-      .container-main{
+      .container-main_tratamientos-corporales{
         position: relative;
         width: 18.0625rem;
         height: 24.25rem;
-        margin: 1.25rem auto;
-        .caja-principal{
+        margin: 2rem auto;
+        .caja-principal_tratamientos-corporales{
           background-color: $bg-footer;
           width: 18.0625rem;
-          height: 24.25rem;
+          height: 26.25rem;
           position: absolute;
           border-radius: 1.25rem;
         }
-        .caja-flex{
+        .caja-flex_tratamientos-corporales{
           position: absolute;
           display: flex;
           flex-direction: column;
-          .foto-servicio{
+          .foto-servicio_tratamientos-corporales{
             border-radius: 1.25rem 1.25rem 0rem 0rem;
             width: 18.0625rem;
             height: 9.8125rem;
@@ -35,13 +44,16 @@ body{
               object-position: center;
             }
           }
-          .texto-servicio{
+          .texto-servicio_tratamientos-corporales{
             color: white;
-            text-align: center;
+            text-align:center;
             top:11.25rem;
-            padding: 1.25rem 1.25rem;
+            padding: 1.25rem 1rem;
+            h3{
+              margin-bottom: .9375rem;
+            }
           }
-          .button-cards{
+          .button-cards_tratamientos-corporales{
             margin: 0.4375rem 0rem .3125rem 0rem;
             text-align: center;
             button{

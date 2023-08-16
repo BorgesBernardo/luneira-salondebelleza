@@ -12,8 +12,8 @@
 */
 header {
   width: 100%;
-  height: 12.125rem;
-  background-color: #E1D0E1;
+  height: 15rem;
+  background-color: #e0cfc7;
   align-items: center;
   position: relative;
   z-index: 100000;
@@ -38,12 +38,15 @@ header nav .bar-btn {
   margin-right: 1.25rem;
   cursor: pointer;
 }
+header nav .bar-btn i {
+  color: #808080;
+}
 header nav ul {
   position: fixed;
   width: 100%;
   height: 0vh;
-  top: 12.125rem;
-  background: #BA4D74;
+  top: 15rem;
+  background: #cfd0c4;
   text-align: center;
 }
 header nav ul li {
@@ -54,7 +57,7 @@ header nav ul li {
 }
 header nav ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 600;
@@ -66,7 +69,7 @@ header .logo-img img {
 }
 
 .nav-menu li a.active, .nav-menu li a:hover {
-  color: #E3B0D5;
+  color: white;
   transition: all 0.3s;
 }
 
@@ -84,31 +87,37 @@ header .logo-img img {
 }
 
 body {
-  background-color: #EEEEEE;
+  background-color: #fcfafa;
 }
 
 .index {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 12.125rem 1fr 8.5625rem;
-}
-
-.cursos {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 12.125rem 1fr 8.5625rem;
+  grid-template-rows: 15rem 1fr 8.5625rem;
 }
 
 .servicios {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 12.125rem 1fr 8.5625rem;
+  grid-template-rows: 15rem 1fr 8.5625rem;
+}
+
+.servicios-faciales {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 15rem 1fr 8.5625rem;
+}
+
+.servicios-corporales {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 15rem 1fr 8.5625rem;
 }
 
 .nosotros {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 12.125rem 1fr 8.5625rem;
+  grid-template-rows: 15rem 1fr 8.5625rem;
 }
 
 main .encabezado {
@@ -127,19 +136,18 @@ main .encabezado h4 {
 }
 main .container-1 .titulo_index h2 {
   text-align: center;
-  margin-bottom: 1.25rem;
 }
-main .container-1 .cursos {
-  padding: 0.625rem 0.625rem;
+main .container-1 .cursos-container {
+  padding: 0rem 0.625rem 0.625rem 0.625rem;
 }
-main .container-1 .cursos .curso-1 {
+main .container-1 .cursos-container .curso-1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 1.25rem 0rem;
+  margin: 1.25rem 0rem 1.25rem 0rem;
   gap: 0.625rem;
 }
-main .container-1 .cursos .curso-2 {
+main .container-1 .cursos-container .curso-2 {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -147,7 +155,7 @@ main .container-1 .cursos .curso-2 {
   gap: 0.625rem;
   font-size: 0.9375rem;
 }
-main .container-1 .cursos .curso-3 {
+main .container-1 .cursos-container .curso-3 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -162,10 +170,10 @@ main .container-1 .button-container button {
   padding: 1.25rem 1.875rem;
   border-radius: 1.25rem;
   box-shadow: 0.125rem 0.0625rem 0.9375rem 0rem black;
-  background-color: #BA4D74;
-  color: #fff;
+  background-color: #d0b7ca;
   font-weight: bold;
   border: transparent;
+  color: #000;
 }
 main .container-1 .button-scale:hover {
   transform: scale(1.3);
@@ -174,22 +182,22 @@ main .container-1 .button-scale:hover {
 main .container-1 .h2-index-servicio h2 {
   text-align: center;
   padding-top: 1.25rem;
-  background-color: #BA4D74;
-  color: #fff;
+  background-color: #e3deea;
+  color: #000;
 }
-main .container-1 .servicios {
-  background-color: #BA4D74;
+main .container-1 .servicios-container {
+  background-color: #e3deea;
   padding: 0.625rem 0.625rem;
-  color: #fff;
+  color: #000;
 }
-main .container-1 .servicios .servicio-1 {
+main .container-1 .servicios-container .servicio-1 {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin: 1.25rem 0rem;
   gap: 0.625rem;
 }
-main .container-1 .servicios .servicio-2 {
+main .container-1 .servicios-container .servicio-2 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -197,7 +205,7 @@ main .container-1 .servicios .servicio-2 {
   gap: 0.625rem;
   font-size: 0.9375rem;
 }
-main .container-1 .servicios .servicio-3 {
+main .container-1 .servicios-container .servicio-3 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -205,7 +213,7 @@ main .container-1 .servicios .servicio-3 {
   gap: 0.625rem;
 }
 main .container-1 .button-container-servicio {
-  background-color: #BA4D74;
+  background-color: #e3deea;
   text-align: center;
   padding-bottom: 1.25rem;
 }
@@ -213,13 +221,13 @@ main .container-1 .button-container-servicio button {
   padding: 1.25rem 1.875rem;
   border-radius: 1.25rem;
   box-shadow: 0.125rem 0.0625rem 0.9375rem 0rem black;
-  background-color: #BA4D74;
-  color: #fff;
+  background-color: #d0b7ca;
+  color: #000;
   font-weight: bold;
   border: transparent;
 }
 main .container-nosotros {
-  background-color: #CBCBCB;
+  background-color: #cfd0c4;
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
@@ -236,8 +244,8 @@ main .container-nosotros .container-button-nosotros button {
   padding: 1.25rem 2.5rem;
   border-radius: 1.875rem;
   box-shadow: 0.125rem 0.0625rem 0.9375rem 0rem black;
-  background-color: #BA4D74;
-  color: #fff;
+  background-color: #d0b7ca;
+  color: #000;
   font-weight: bold;
   border: transparent;
 }
@@ -258,19 +266,19 @@ body main .section_cursos .container-main {
   position: relative;
   width: 18.0625rem;
   height: 25rem;
-  margin: 1.25rem auto;
+  margin: 0rem auto 4rem auto;
 }
 body main .section_cursos .container-main .caja-principal {
-  background-color: #E1D0E1;
+  background-color: #e0cfc7;
   width: 18.0625rem;
-  height: 25rem;
+  height: 26rem;
   position: absolute;
   border-radius: 3.875rem;
 }
 body main .section_cursos .container-main .caja-secundaria {
-  background-color: #BA4D74;
+  background-color: #ecc3ae;
   width: 14.6875rem;
-  height: 18.75rem;
+  height: 20rem;
   position: absolute;
   top: 2.5rem;
   left: 0;
@@ -282,10 +290,15 @@ body main .section_cursos .container-main .container-curso {
   display: flex;
   flex-direction: column;
   position: absolute;
-  color: white;
+  color: #000;
   text-align: center;
   margin: 0.625rem 1.875rem;
   gap: 0.625rem;
+}
+body main .section_cursos .container-main .container-curso img {
+  padding: 0.3125rem 0.3125rem;
+  background-color: white;
+  border-radius: 20rem;
 }
 body main .section_cursos .container-main .container-curso .button-cards {
   margin: 0.4375rem 0rem 0.3125rem 0rem;
@@ -295,8 +308,8 @@ body main .section_cursos .container-main .container-curso .button-cards button 
   padding: 0.8125rem 2.5rem;
   border-radius: 0.625rem;
   box-shadow: 0.125rem 0.0625rem 0.9375rem 0rem black;
-  background-color: #E1D0E1;
-  color: #BA4D74;
+  background-color: #e0cfc7;
+  color: #000;
   font-weight: bold;
   border: transparent;
 }
@@ -320,7 +333,7 @@ body main .section_servicios .container-main {
   margin: 1.25rem auto;
 }
 body main .section_servicios .container-main .caja-principal {
-  background-color: #BA4D74;
+  background-color: #ecc3ae;
   width: 18.0625rem;
   height: 24.25rem;
   position: absolute;
@@ -357,12 +370,164 @@ body main .section_servicios .container-main .caja-flex .button-cards button {
   padding: 0.8125rem 2.5rem;
   border-radius: 0.625rem;
   box-shadow: 0.125rem 0.0625rem 0.9375rem 0rem black;
-  background-color: #E1D0E1;
-  color: #BA4D74;
+  background-color: #e0cfc7;
+  color: #ecc3ae;
   font-weight: bold;
   border: transparent;
 }
 body main .section_servicios .container-main .caja-flex .button-cards button:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.servicios-faciales main {
+  margin-bottom: 1.25rem;
+}
+.servicios-faciales main .boton-volver {
+  margin: 0.625rem 0.625rem;
+}
+.servicios-faciales main .boton-volver button {
+  padding: 0.5rem 2rem;
+  border-radius: 0.625rem;
+}
+.servicios-faciales main .titulo_tratamientos-faciales {
+  text-align: center;
+  padding-top: 2.5rem;
+  font-size: 0.9375rem;
+}
+.servicios-faciales main .section_servicios_tratamientos-faciales {
+  display: flex;
+  flex-direction: column;
+}
+.servicios-faciales main .section_servicios_tratamientos-faciales .container-main_tratamientos-faciales {
+  position: relative;
+  width: 18.0625rem;
+  height: 24.25rem;
+  margin: 2rem auto;
+}
+.servicios-faciales main .section_servicios_tratamientos-faciales .container-main_tratamientos-faciales .caja-principal_tratamientos-faciales {
+  background-color: #ecc3ae;
+  width: 18.0625rem;
+  height: 26.25rem;
+  position: absolute;
+  border-radius: 1.25rem;
+}
+.servicios-faciales main .section_servicios_tratamientos-faciales .container-main_tratamientos-faciales .caja-flex_tratamientos-faciales {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+.servicios-faciales main .section_servicios_tratamientos-faciales .container-main_tratamientos-faciales .caja-flex_tratamientos-faciales .foto-servicio_tratamientos-faciales {
+  border-radius: 1.25rem 1.25rem 0rem 0rem;
+  width: 18.0625rem;
+  height: 9.8125rem;
+}
+.servicios-faciales main .section_servicios_tratamientos-faciales .container-main_tratamientos-faciales .caja-flex_tratamientos-faciales .foto-servicio_tratamientos-faciales img {
+  border-radius: 1.25rem 1.25rem 0rem 0rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.servicios-faciales main .section_servicios_tratamientos-faciales .container-main_tratamientos-faciales .caja-flex_tratamientos-faciales .texto-servicio_tratamientos-faciales {
+  color: white;
+  text-align: center;
+  top: 11.25rem;
+  padding: 1.25rem 1rem;
+}
+.servicios-faciales main .section_servicios_tratamientos-faciales .container-main_tratamientos-faciales .caja-flex_tratamientos-faciales .texto-servicio_tratamientos-faciales h3 {
+  margin-bottom: 0.9375rem;
+}
+.servicios-faciales main .section_servicios_tratamientos-faciales .container-main_tratamientos-faciales .caja-flex_tratamientos-faciales .button-cards_tratamientos-faciales {
+  margin: 0.4375rem 0rem 0.3125rem 0rem;
+  text-align: center;
+}
+.servicios-faciales main .section_servicios_tratamientos-faciales .container-main_tratamientos-faciales .caja-flex_tratamientos-faciales .button-cards_tratamientos-faciales button {
+  padding: 0.8125rem 2.5rem;
+  border-radius: 0.625rem;
+  box-shadow: 0.125rem 0.0625rem 0.9375rem 0rem black;
+  background-color: #e0cfc7;
+  color: #ecc3ae;
+  font-weight: bold;
+  border: transparent;
+}
+.servicios-faciales main .section_servicios_tratamientos-faciales .container-main_tratamientos-faciales .caja-flex_tratamientos-faciales .button-cards_tratamientos-faciales button:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.servicios-corporales main {
+  margin-bottom: 1.25rem;
+}
+.servicios-corporales main .boton-volver {
+  margin: 0.625rem 0.625rem;
+}
+.servicios-corporales main .boton-volver button {
+  padding: 0.5rem 2rem;
+  border-radius: 0.625rem;
+}
+.servicios-corporales main .titulo_tratamientos-corporales {
+  text-align: center;
+  padding-top: 2.5rem;
+  font-size: 0.9375rem;
+}
+.servicios-corporales main .section_servicios_tratamientos-corporales {
+  display: flex;
+  flex-direction: column;
+}
+.servicios-corporales main .section_servicios_tratamientos-corporales .container-main_tratamientos-corporales {
+  position: relative;
+  width: 18.0625rem;
+  height: 24.25rem;
+  margin: 2rem auto;
+}
+.servicios-corporales main .section_servicios_tratamientos-corporales .container-main_tratamientos-corporales .caja-principal_tratamientos-corporales {
+  background-color: #ecc3ae;
+  width: 18.0625rem;
+  height: 26.25rem;
+  position: absolute;
+  border-radius: 1.25rem;
+}
+.servicios-corporales main .section_servicios_tratamientos-corporales .container-main_tratamientos-corporales .caja-flex_tratamientos-corporales {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+.servicios-corporales main .section_servicios_tratamientos-corporales .container-main_tratamientos-corporales .caja-flex_tratamientos-corporales .foto-servicio_tratamientos-corporales {
+  border-radius: 1.25rem 1.25rem 0rem 0rem;
+  width: 18.0625rem;
+  height: 9.8125rem;
+}
+.servicios-corporales main .section_servicios_tratamientos-corporales .container-main_tratamientos-corporales .caja-flex_tratamientos-corporales .foto-servicio_tratamientos-corporales img {
+  border-radius: 1.25rem 1.25rem 0rem 0rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.servicios-corporales main .section_servicios_tratamientos-corporales .container-main_tratamientos-corporales .caja-flex_tratamientos-corporales .texto-servicio_tratamientos-corporales {
+  color: white;
+  text-align: center;
+  top: 11.25rem;
+  padding: 1.25rem 1rem;
+}
+.servicios-corporales main .section_servicios_tratamientos-corporales .container-main_tratamientos-corporales .caja-flex_tratamientos-corporales .texto-servicio_tratamientos-corporales h3 {
+  margin-bottom: 0.9375rem;
+}
+.servicios-corporales main .section_servicios_tratamientos-corporales .container-main_tratamientos-corporales .caja-flex_tratamientos-corporales .button-cards_tratamientos-corporales {
+  margin: 0.4375rem 0rem 0.3125rem 0rem;
+  text-align: center;
+}
+.servicios-corporales main .section_servicios_tratamientos-corporales .container-main_tratamientos-corporales .caja-flex_tratamientos-corporales .button-cards_tratamientos-corporales button {
+  padding: 0.8125rem 2.5rem;
+  border-radius: 0.625rem;
+  box-shadow: 0.125rem 0.0625rem 0.9375rem 0rem black;
+  background-color: #e0cfc7;
+  color: #ecc3ae;
+  font-weight: bold;
+  border: transparent;
+}
+.servicios-corporales main .section_servicios_tratamientos-corporales .container-main_tratamientos-corporales .caja-flex_tratamientos-corporales .button-cards_tratamientos-corporales button:hover {
   transform: scale(1.1);
   transition: all 0.5s;
 }
@@ -383,7 +548,7 @@ body main .container_nosotros p {
 }
 
 footer {
-  background-color: #BA4D74;
+  background-color: #ecc3ae;
 }
 footer .container-footer {
   display: flex;
@@ -409,14 +574,17 @@ footer .container-footer nav ul {
 }
 footer .container-footer nav ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 footer .container-footer .ubicacion {
-  margin: 0.625rem 0rem;
+  margin: 0.625rem 0cm;
 }
 footer .container-footer .ubicacion a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
+}
+footer .container-footer .ubicacion a img {
+  padding-right: 0.625rem;
 }
 
 @media screen and (min-width: 768px) {

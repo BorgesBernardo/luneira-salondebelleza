@@ -30,10 +30,13 @@ footer{
       }
     }
     .ubicacion{
-      margin: .625rem 0rem;
+      margin: .625rem 0cm;
       a{
         text-decoration: none;
         color: $color-texto;
+        img{
+          padding-right: 0.625rem;
+        }
       }
     }
   }
