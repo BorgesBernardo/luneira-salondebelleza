@@ -2,10 +2,11 @@
   body{
     header{
       nav{
-        height: 6.25rem;
+        height: 8.25rem;
         align-items: center;
+        flex-direction: column-reverse;
         .redes-sociales{
-          display: flex;
+          margin-left: 0rem;
         }
         .bar-btn{
           display: none;
@@ -33,7 +34,6 @@
     }
     main{
       .container-1{
-        
         .cursos{
           display: flex;
           flex-direction: row;

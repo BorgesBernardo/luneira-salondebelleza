@@ -1,5 +1,6 @@
 body{
   main{
+    margin-bottom: 1.25rem;
     .titulo{
       text-align: center;
       padding-top: 2.5rem;
@@ -11,11 +12,11 @@ body{
         position: relative;
         width: 18.0625rem;
         height: 24.25rem;
-        margin: 1.25rem auto;
+        margin: 1.8rem auto;
         .caja-principal{
           background-color: $bg-footer;
           width: 18.0625rem;
-          height: 24.25rem;
+          height: 26rem;
           position: absolute;
           border-radius: 1.25rem;
         }
@@ -36,20 +37,23 @@ body{
             }
           }
           .texto-servicio{
-            color: white;
+            color: $color-texto;
             text-align: center;
             top:11.25rem;
-            padding: 1.25rem 1.25rem;
+            padding: 1rem 1rem;
+            h3{
+              margin-bottom: 0.625rem;
+            }
           }
           .button-cards{
-            margin: 0.4375rem 0rem .3125rem 0rem;
+            margin: 0.3125rem 0rem .3125rem 0rem;
             text-align: center;
             button{
               padding: 0.8125rem 2.5rem;
               border-radius: 0.625rem;
               box-shadow: .125rem .0625rem .9375rem 0rem black;
               background-color: $bg-header;
-              color: $bg-footer;
+              color: $color-texto;
               font-weight: bold;
               border: transparent;
             }

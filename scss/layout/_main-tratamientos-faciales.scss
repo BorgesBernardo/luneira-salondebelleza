@@ -2,16 +2,18 @@
   main{
     margin-bottom: 1.25rem;
     .boton-volver{
-      margin: .625rem .625rem;
+      margin: 1.625rem 0.625rem 0rem 1rem;
       button{
         padding: 0.5rem 2rem;
         border-radius: 0.625rem;
+        background-color: white;
+        border-color: $bg-header;
       }
     }
     .titulo_tratamientos-faciales{
       text-align: center;
-      padding-top: 2.5rem;
-      font-size: 0.9375rem;
+      padding-top: 2rem;
+      font-size: 0.8rem;
     }
     .section_servicios_tratamientos-faciales{
       display: flex;
@@ -45,7 +47,7 @@
             }
           }
           .texto-servicio_tratamientos-faciales{
-            color: white;
+            color: $color-texto;
             text-align:center;
             top:11.25rem;
             padding: 1.25rem 1rem;
@@ -61,7 +63,7 @@
               border-radius: 0.625rem;
               box-shadow: .125rem .0625rem .9375rem 0rem black;
               background-color: $bg-header;
-              color: $bg-footer;
+              color: $color-texto;
               font-weight: bold;
               border: transparent;
             }

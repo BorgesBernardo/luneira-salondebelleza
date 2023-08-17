@@ -15,14 +15,14 @@ body{
         .caja-principal{
           background-color: $bg-header;
           width: 18.0625rem;
-          height: 26rem;
+          height: 27rem;
           position: absolute;
           border-radius: 3.875rem;
         }
         .caja-secundaria{
           background-color: $bg-footer;
           width: 14.6875rem;
-          height: 20rem;
+          height: 22rem;
           position: absolute;
           top: 2.5rem;
           left: 0;
@@ -42,6 +42,11 @@ body{
             padding: .3125rem .3125rem;
             background-color: #ffff;
             border-radius: 20rem;
+          }
+          .texto{
+            h3{
+              margin-bottom: .625rem;
+            }
           }
           .button-cards{
             margin: .4375rem 0rem .3125rem 0rem;
